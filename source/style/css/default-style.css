@@ -31,7 +31,7 @@ img {
   font-family: monospace;
   font-size: 30px;
   border-radius: 35px;
-  background-color: #b4d0f510;
+  background-color: #93969965;
   transition-duration: 0.6s;
   display: block; 
   margin-left: auto; 
@@ -40,7 +40,7 @@ img {
 }
 img:hover {
   border-radius: 20px;
-  background-color: #b4d0f51e;
+  background-color: #7f838691;
   transition-duration: 0.6s;
   width: 62%;
 }
@@ -227,7 +227,7 @@ a:hover {
 .button {
   position: relative;
   vertical-align: middle;  
-  background-color: rgba(255, 255, 0, 0.692);
+  background-color: rgba(255, 217, 0, 0.692);
   border: none;
   z-index: 1;
   color: rgb(53, 52, 52);
@@ -249,16 +249,16 @@ a:hover {
 .button:hover {
   position: relative;
   vertical-align: middle;
-  background-color: rgba(153, 153, 4, 0.863);
+  background-color: rgba(172, 169, 9, 0.863);
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgb(44, 44, 44);
   padding: 6px 15px;
   text-align: center;
   border-radius: 8px;
   text-decoration: none;
   z-index: 0;
   display: inline-block;
-  font-size: 15px;
+  font-size: 13.5px;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.6s; 
@@ -343,7 +343,7 @@ a:hover {
   text-align: center;
   padding: 1rem 2rem;
   background: #34637e;
-  transition: all 0.75s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 10s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .cookie-box--hide {
   opacity: 0;
@@ -403,8 +403,8 @@ a:hover {
 }
 
 .collapsible {
-  background-color: rgba(255, 255, 0, 0.253);
-  color: white;
+  background-color: rgba(255, 255, 0, 0.438);
+  color: rgb(41, 40, 40);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -416,8 +416,8 @@ a:hover {
 }
 
 .collapsible:hover {
-  background-color: rgba(91, 167, 218, 0.37);
-  color: white;
+  background-color: rgb(255, 255, 0);
+  color: rgb(97, 94, 94);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -429,7 +429,7 @@ a:hover {
 }
 
 .dark {
-  background-color: rgba(43, 82, 207, 0.377);
+  background-color: rgba(238, 155, 0, 0.712);
 }
 
 .tt {
@@ -442,13 +442,13 @@ a:hover {
 }
 
 .active, .collapsible:hover, .dark:hover {
-  background-color: rgba(91, 167, 218, 0.37);
+  background-color: rgba(196, 196, 22, 0.733);
   transition-duration: 0.5s;
   font-size: 18px;
 }
 
 .active:hover {
-  background-color: rgba(91, 167, 218, 0.514);
+  background-color: rgba(230, 230, 102, 0.623);
   transition-duration: 0.5s;
 }
 
@@ -533,9 +533,9 @@ video {
   height: auto;
   border: 5px;
   z-index: 1;
-  background: black;
-  background-color: #5e565670;
+  background-color: rgb(136, 10, 10);
   font-size: 100%;
+  color: white;
   width: auto;
   border-radius: 20px;
   transition-duration: 0.5s;
